@@ -1,10 +1,16 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Inicio</ion-title>
+    <ion-title>Página 4</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div class="ion-padding">
+    <ion-button routerLink="/home" routerDirection="forward">Ir a Home</ion-button>
+  </div>
   <div class="ion-padding">
     <ion-button routerLink="/pagina1" routerDirection="forward">Ir a la página 1</ion-button>
   </div>
@@ -14,7 +20,5 @@
   <div class="ion-padding">
     <ion-button routerLink="/pagina3" routerDirection="forward">Ir a la página 3</ion-button>
   </div>
-  <div class="ion-padding">
-    <ion-button routerLink="/pagina4" routerDirection="forward">Ir a la página 4</ion-button>
-  </div>
+
 </ion-content>
